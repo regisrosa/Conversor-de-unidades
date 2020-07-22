@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONVERSOR DE UNIDADES</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1>Conversor de Unidades</h1>
+    <div>
+        <p>
+        <strong>Qual opção você deseja:</strong>  <br>    
+        </p>
+        
+        <input type="radio" name="dist" id="km-m" checked> Km para m <br>
+        <input type="radio" name="dist" id="m-km"> m para Km <br>
+        <input type="radio" name="dist" id="mi-km"> milha para Km <br>
+        <input type="radio" name="dist" id="km-mi"> Km para milha <br>
+        <input type="radio" name="dist" id="jd-m"> jarda para m <br>
+        <input type="radio" name="dist" id="m-jd"> m para jarda <br>
+    </div>
+    <p>
+        Digite a distância:
+        <input type="number" name="num" id="num"> <input type="button" value="Verificar" onclick="calcular()">
+
+    </p>
+    <p id='res'>
+        
+    </p>
+    <footer>
+        &copy; RegisInc
+    </footer> 
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>
